@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.promo {
+    min-height: 789px;
+    background: url(./logos/Rectangle\ 1.jpg)
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+}
+
+.nav {
+    display: flex;
+    gap: 20px
+}
+
+.nav a {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.nav a.active {
+    color: #FFC700;
+}
+
+.promo h1 {
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+    margin: 100px 0 43px;
+}
+
+.button {
+
+    width: 230px;
+    height: 50px;
+    border-radius: 60px;
+    border: 0;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+}
+
+.tour_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: ;
+    width: 10000px;
+    height: 1000px;
+    margin-right: 20px;
+
+}
+
+.left {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+
+}
+
+.center {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.about {
+    min-height: 749px;
+    background: url(../img/Rectangle\ 4.jpg) no-repeat center/ cover;
+    padding: 136px 0;
+}
+
+.about_wrap {
+    max-width: 542px;
+    background: #ededed;
+    border-radius: 10px;
+    padding: 61px 80px;
+    margin: 0 auto;
+
+}
+
+x .about_wrap .title {
+    margin-bottom: 40px;
+}
+
+.about_wrap p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    margin-bottom: 20px;
+}
+
+.excursions {
+    padding: 98px 0;
+}
+
+.excursions_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+    margin-top: 90px;
+}
+
+.excursions_item {
+    display: flex;
+    gap: 20px;
+
+}
+
+.excursions_item h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+    margin-bottom: 20px;
+
+}
+
+.excursions_item p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+
+.excursions_desc {
+    max-width: 550px;
+    margin: 60px auto 0;
+    text-align: center;
+}
+
+.excursions_desc p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #282828;
+    margin-bottom: 20px;
+}
+
+.gallery_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 288px 1fr 1fr;
+    grid-auto-rows: 123px;
+    gap: 10px;
+    padding-bottom: 99px;
+}
+
+.gallery_item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    border-radius: 8px;
+    
+    
+}
+
+.gallery_item:nth-child(1) {
+    grid-column: 1/3 ;
+    grid-row: 1/3;
+}
+.gallery_item:nth-child(2){
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+.gallery_item:nth-child(3){
+    grid-column:4/5;
+    grid-row: 1/3 ;
+}
+.gallery_item:nth-child(4){
+    grid-column: 5/6 ;
+    grid-row: 1/3;
+}
+.gallery_item:nth-child(5){
+    grid-column: 1/2 ;
+    grid-row: 3/5;
+}
+
+.gallery_item:nth-child(8){
+    grid-column: 4/6;
+    grid-row: 3/5;
+}
